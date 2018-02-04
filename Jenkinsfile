@@ -31,7 +31,7 @@ pipeline {
                 }
             }
             
-            stage ('deploy_to_stag') {
+            stage ('deploy_to_staging') {
                 steps {
                     build 'deploy-to-stag'
                 }
