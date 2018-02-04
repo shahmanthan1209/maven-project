@@ -19,7 +19,7 @@ pipeline {
                 steps {
                     echo "Build started"
                     sh '''
-                        mvn clean package checkstyle:checksyle
+                        mvn clean package checkstyle:checkstyle
                     '''
                 }
                 post {
